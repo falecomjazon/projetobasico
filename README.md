@@ -1,2 +1,2 @@
-# projetobasico
-Projeto básico (banco e webservice)
+# projetobasicoandroid
+Projeto básico em android(banco e webservice)

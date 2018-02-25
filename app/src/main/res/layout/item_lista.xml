@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_codigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Código"
+        tools:text="Código" />
+
+    <TextView
+        android:id="@+id/tv_nome"
+        android:layout_marginLeft="15px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_toEndOf="@+id/tv_codigo"
+        android:text="Nome Completo"
+        tools:text="Nome Completo" />
+
+    <TextView
+        android:id="@+id/tv_telefone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv_nome"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_marginLeft="15px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_telefone"
+        android:layout_below="@+id/tv_nome"
+        android:layout_marginStart="11dp"
+        android:text="E-mail"
+        tools:text="E-mail" />
+
+</RelativeLayout>
